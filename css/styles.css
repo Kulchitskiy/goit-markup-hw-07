@@ -512,6 +512,15 @@ h5 {
   margin-bottom: 10px;
   margin-right: 0px;
 }
+.follow {
+  color: var(-);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
 
 .footer-flex .social-networks {
   padding-bottom: 0px;
@@ -750,7 +759,7 @@ h5 {
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*СЧТИЛИ НА ФОРМЫ */
+/*СТИЛИ НА ФОРМЫ */
 .call-to-action {
   margin-bottom: 30px;
 
