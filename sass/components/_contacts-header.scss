@@ -9,7 +9,7 @@
   display: block;
   display: inline-flex;
   align-items: center;
-  transition: $main-animation;
+  transition: color $animation;
   color: $primary-text-color;
   font-style: normal;
   font-weight: 500;

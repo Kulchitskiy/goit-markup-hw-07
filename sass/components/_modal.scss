@@ -11,12 +11,12 @@
 
   opacity: 1;
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition: opacity $animation;
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .modal {
@@ -36,7 +36,7 @@
 
   transform: translate(-50%, -50%) scale(1);
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform $animation;
 
   .backdrop.is-hidden & {
     transform: translate(-50%, -50%) scale(1.1);
